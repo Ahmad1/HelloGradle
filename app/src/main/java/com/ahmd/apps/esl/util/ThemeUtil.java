@@ -7,9 +7,8 @@ import android.content.SharedPreferences;
 import android.util.Log;
 
 import com.ahmd.apps.esl.ESLApplication;
+import com.ahmd.apps.esl.R;
 import com.ahmd.apps.esl.constants.ESLConstants;
-import com.example.fragment0901.ESLApplication;
-import com.example.fragment0901.R;
 
 public class ThemeUtil {
     public final static int THEME_DEFAULT = 0;
@@ -32,7 +31,7 @@ public class ThemeUtil {
         if ( pref != null ) {
             sTheme = pref.getInt(ESLConstants.THEME, THEME_DEFAULT);
         }
-        Log.i("xxx" , "sTheme: " + sTheme);
+        if(ESLConstants.DEBUG) Log.i("xxx" , "sTheme: " + sTheme);
         switch (sTheme) {
             default:
             case THEME_DEFAULT:
