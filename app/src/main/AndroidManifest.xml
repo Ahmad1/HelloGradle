@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".PodListActivity"
+            android:name=".activity.PodListActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,12 +17,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PodDetailActivity"
+            android:name=".activity.PodDetailActivity"
             android:label="@string/title_pod_detail"
-            android:parentActivityName=".PodListActivity" >
+            android:parentActivityName=".activity.PodListActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".PodListActivity" />
+                android:value=".activity.PodListActivity" />
         </activity>
     </application>
 

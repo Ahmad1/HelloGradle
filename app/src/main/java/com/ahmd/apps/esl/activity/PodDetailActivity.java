@@ -1,10 +1,13 @@
-package com.ahmd.apps.esl;
+package com.ahmd.apps.esl.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
+
+import com.ahmd.apps.esl.fragment.PodDetailFragment;
+import com.ahmd.apps.esl.R;
 
 /**
  * An activity representing a single Pod detail screen. This

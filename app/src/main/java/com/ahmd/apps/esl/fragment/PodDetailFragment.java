@@ -1,4 +1,4 @@
-package com.ahmd.apps.esl;
+package com.ahmd.apps.esl.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.ahmd.apps.esl.R;
+import com.ahmd.apps.esl.activity.PodDetailActivity;
+import com.ahmd.apps.esl.activity.PodListActivity;
 import com.ahmd.apps.esl.dummy.DummyContent;
 
 /**
